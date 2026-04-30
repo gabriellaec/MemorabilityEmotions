@@ -1,0 +1,23 @@
+{
+  "A_vit_only": {
+    "description": "ViT only (baseline)",
+    "input_dim": 768,
+    "test_mse": 0.006037971004843712,
+    "test_r": 0.6944284439086914,
+    "delta_r_vs_clip_baseline": 0.0
+  },
+  "C_vit_emo": {
+    "description": "ViT + emotion scores",
+    "input_dim": 774,
+    "test_mse": 0.005903910845518112,
+    "test_r": 0.7024789452552795,
+    "delta_r_vs_clip_baseline": 0.008050501346588135
+  },
+  "F_vit_emo_entropy": {
+    "description": "ViT + emotion scores + entropy",
+    "input_dim": 775,
+    "test_mse": 0.005889750551432371,
+    "test_r": 0.703389048576355,
+    "delta_r_vs_clip_baseline": 0.008960604667663574
+  }
+}

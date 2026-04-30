@@ -1,0 +1,3 @@
+Experiment,vs. baseline,Description,Mean MSE,W,p-value,p (fmt),Effect size r,Sig.,Direction
+F_vit_emo_entropy,A_vit_only,ViT + emotion scores + entropy,0.000148,1831177.0,3.16902220121955e-11,3.17e-11,0.1301,SIGNIFICANT,better
+C_vit_emo,A_vit_only,ViT + emotion scores,0.000134,1815429.0,5.133581596176539e-10,5.13e-10,0.1215,SIGNIFICANT,better

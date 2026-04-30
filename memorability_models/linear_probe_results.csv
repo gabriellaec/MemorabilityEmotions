@@ -1,0 +1,4 @@
+Experiment,Description,Input dim,Test MSE,Test r,MSE,r,rho
+F_vit_emo_entropy,ViT + emotion scores + entropy,775,0.00589,0.7034,-0.00015,0.009,0.0094
+C_vit_emo,ViT + emotion scores,774,0.0059,0.7025,-0.00013,0.0081,0.0087
+A_vit_only,ViT only (baseline),768,0.00604,0.6944,0.0,0.0,0.0
