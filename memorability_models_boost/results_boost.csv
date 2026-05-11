@@ -1,0 +1,15 @@
+Experiment,Description,Test MSE,Test r,Test ρ,Δr,Δρ
+EmotionBoost_Lasso,Lasso CV with emotion scaling (x24.0),0.00569,0.7149,0.7108,0.0168,0.0187
+Lasso_baseline,Lasso CV (sklearn),0.0057,0.7145,0.7104,0.0163,0.0183
+ElasticNet_baseline,ElasticNet CV (sklearn),0.0057,0.7145,0.7105,0.0163,0.0184
+Residual_Ridge,Ridge(clip) + Ridge(emotion residual),0.0057,0.7144,0.7112,0.0162,0.0191
+Residual_Ridge_Gamma,Residual Ridge + calibrated gamma (0.20),0.00571,0.7143,0.7112,0.0162,0.0191
+G_vit_emo_norm,ViT + emotion — block-normalised,0.00576,0.7113,0.7074,0.0131,0.0153
+C_vit_emo,"ViT + emotion (raw, MSE)",0.00583,0.7067,0.7014,0.0086,0.0094
+A_vit_only,ViT only — baseline,0.00597,0.6981,0.6921,0.0,0.0
+PCA_Ridge_baseline,PCA(clip) + Ridge CV,0.00608,0.6916,0.6908,-0.0066,-0.0012
+L_aux_rank,MLP — aux emotion head + rank loss,0.48848,0.6889,0.6868,-0.0092,-0.0053
+H_film,FiLM: emotion modulates ViT features,0.0062,0.6866,0.6845,-0.0115,-0.0076
+I_rank_loss,MLP — Spearman rank loss,0.51187,0.6866,0.6905,-0.0115,-0.0015
+J_aux_emo,MLP — aux emotion head (α=0.3),0.00651,0.6784,0.6755,-0.0198,-0.0166
+K_film_rank,FiLM + Spearman rank loss,0.42404,0.6193,0.6455,-0.0788,-0.0466

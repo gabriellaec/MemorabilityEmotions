@@ -1,0 +1,5 @@
+Experiment,Description,Test MSE,Test r,Test rho,Dr,Drho
+Lasso_derived_emotions,LassoCV on ViT + derived emotion ranges,0.00582,0.4823,0.4507,0.2703,0.1407
+B_vit_emotions_raw,ViT + derived emotions (raw),0.01119,0.2536,0.3484,0.0416,0.0383
+C_vit_emotions_norm,ViT + derived emotions (normalized),0.05598,0.2271,0.2236,0.0151,-0.0865
+A_vit_only,ViT only baseline,0.01279,0.212,0.3101,0.0,0.0

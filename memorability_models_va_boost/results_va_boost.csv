@@ -1,0 +1,7 @@
+Experiment,Description,Test MSE,Test r,Test rho,Dr,Drho
+Lasso,LassoCV on ViT+VA norm,0.00596,0.4672,0.4404,0.2515,0.1367
+Lasso_VA_Boost,LassoCV with VA scaling (x8.0),0.00601,0.4615,0.4403,0.2457,0.1367
+B_vit_va_raw,ViT + valence/arousal (raw),0.00778,0.3656,0.3245,0.1498,0.0208
+D_film_va,FiLM with valence/arousal conditioning,0.01359,0.2586,0.2206,0.0428,-0.0831
+C_vit_va_norm,ViT + valence/arousal (normalized),0.05396,0.2329,0.219,0.0171,-0.0847
+A_vit_only,ViT only baseline,0.01279,0.2157,0.3037,0.0,0.0
